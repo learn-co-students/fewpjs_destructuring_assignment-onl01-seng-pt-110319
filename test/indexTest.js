@@ -77,5 +77,14 @@ describe("index.js", () => {
     expect(partner).to.equal("Miss Piggy")
   })
   
- 
+  it("Object: uses destructuring to assign Kermit's color, songs 2 and 4, and Kermit's job and partner", () => {
+    expect(song_2).to.exist
+    expect(song_2).to.equal("Moving Right Along")
+    expect(song_4).to.exist
+    expect(song_4).to.equal("I Hope That Something Better Comes Along")
+    expect(k_job).to.exist
+    expect(k_job).to.equal("Host of The Muppet Show")
+    expect(k_partner).to.exist
+    expect(k_partner).to.equal("Miss Piggy")
+  })
 })
